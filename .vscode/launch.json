@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/rishikasonker/Documents/react2/07reactRouter/src/components",
+      "program": "/Users/rishikasonker/Documents/react2/07reactRouter/src/components/build/Debug/outDebug"
+    }
+  ]
+}
