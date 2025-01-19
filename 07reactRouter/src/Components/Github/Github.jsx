@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+//import React, { useEffect, useState } from 'react'
 import  {useLoaderData} from 'react-router-dom'
 
 
 function Github() {
 
-    const data = useLoaderData()
+    const data = useLoaderData()   // Accesses the data fetched by the loader
 
     /* const[data , setData]= useState([])
 
@@ -30,7 +30,7 @@ export default Github
 
 export const githubInfoLoader = async () => {
 
-    const response = await fetch('https://api.github.com/users/hiteshchoudhary')
+    const response = await fetch('https://api.github.com/users/rrishikaa')
     return response.json( )
 }
 
